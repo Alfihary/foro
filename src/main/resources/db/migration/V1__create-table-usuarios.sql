@@ -1,7 +1,0 @@
-CREATE TABLE usuarios(
-    id BIGINT NOT NULL AUTO_INCREMENT,
-    nombre VARCHAR(15) NOT Null,
-    email VARCHAR(100) NOT NULL,
-    password VARCHAR(300) NOT NULL UNIQUE,
-    PRIMARY KEY (id)
-);
